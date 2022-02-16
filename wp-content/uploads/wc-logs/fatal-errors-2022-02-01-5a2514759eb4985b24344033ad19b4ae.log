@@ -1,0 +1,142 @@
+2022-02-01T00:46:23+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce.php' (include_path='.:/usr/local/php74/pear') en /home/customer/www/sub.tonofu.com/public_html/wp-content/themes/storefront/functions.php en la línea 41
+
+2022-02-01T00:46:24+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce.php' (include_path='.:/usr/local/php74/pear') en /home/customer/www/sub.tonofu.com/public_html/wp-content/themes/storefront/functions.php en la línea 41
+
+2022-02-01T00:46:37+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce.php' (include_path='.:/usr/local/php74/pear') en /home/customer/www/sub.tonofu.com/public_html/wp-content/themes/storefront/functions.php en la línea 41
+
+2022-02-01T20:09:07+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST) en /home/customer/www/sub.tonofu.com/public_html/wp-content/themes/storefront/inc/woocommerce/class-storefront-woocommerce.php en la línea 381
+
+2022-02-01T20:09:08+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST) en /home/customer/www/sub.tonofu.com/public_html/wp-content/themes/storefront/inc/woocommerce/class-storefront-woocommerce.php en la línea 381
+
+2022-02-01T20:09:11+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST) en /home/customer/www/sub.tonofu.com/public_html/wp-content/themes/storefront/inc/woocommerce/class-storefront-woocommerce.php en la línea 381
+
+2022-02-01T20:09:12+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST) en /home/customer/www/sub.tonofu.com/public_html/wp-content/themes/storefront/inc/woocommerce/class-storefront-woocommerce.php en la línea 381
+
+2022-02-01T20:22:56+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:22:56+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:22:58+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:22:59+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:23:02+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:23:03+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:23:07+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:23:07+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:24:07+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:24:09+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:24:10+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:24:11+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:24:11+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:24:12+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:24:13+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+
+2022-02-01T20:24:15+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php:27
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php(175): wc_get_template('myaccount/subsc...', Array, '', '/home/customer/...')
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): WCS_Template_Loader::get_subscription_totals_table_template(NULL, NULL, NULL, NULL)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Arra en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php en la línea 27
+

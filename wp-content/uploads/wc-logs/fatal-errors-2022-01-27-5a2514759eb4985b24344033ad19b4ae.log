@@ -1,0 +1,30 @@
+2022-01-27T20:07:15+00:00 CRITICAL Cannot declare class qrstr, because the name is already in use en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/libs/phpqrcode.inc en la línea 94
+
+2022-01-27T20:08:35+00:00 CRITICAL Cannot declare class qrstr, because the name is already in use en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/libs/phpqrcode.inc en la línea 94
+
+2022-01-27T20:09:04+00:00 CRITICAL Cannot declare class qrstr, because the name is already in use en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/libs/phpqrcode.inc en la línea 94
+
+2022-01-27T20:09:10+00:00 CRITICAL Cannot declare class qrstr, because the name is already in use en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/libs/phpqrcode.inc en la línea 94
+
+2022-01-27T20:09:16+00:00 CRITICAL Cannot declare class qrstr, because the name is already in use en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/libs/phpqrcode.inc en la línea 94
+
+2022-01-27T20:10:36+00:00 CRITICAL Cannot declare class qrstr, because the name is already in use en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/libs/phpqrcode.inc en la línea 94
+
+2022-01-27T20:11:17+00:00 CRITICAL Cannot declare class qrstr, because the name is already in use en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/libs/phpqrcode.inc en la línea 94
+
+2022-01-27T20:29:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SG_Security\Activity_Log\Activity_Log_Users::log_login(), 1 passed in /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/sg-security/core/Activity_Log/Activity_Log_Users.php:16
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): SG_Security\Activity_Log\Activity_Log_Users->log_login('devjav')
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/qrLogin.php(142): do_action('wp_login', 'devjav')
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/qrLogin.php(164): NoPasswords->log_user_in_with_logi en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/sg-security/core/Activity_Log/Activity_Log_Users.php en la línea 16
+
+2022-01-27T20:50:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function SG_Security\Activity_Log\Activity_Log_Users::log_login(), 1 passed in /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/sg-security/core/Activity_Log/Activity_Log_Users.php:16
+Stack trace:
+#0 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(307): SG_Security\Activity_Log\Activity_Log_Users->log_login('devjav')
+#1 /home/customer/www/sub.tonofu.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/sub.tonofu.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/qrLogin.php(142): do_action('wp_login', 'devjav')
+#4 /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/wp-qr-code-login/qrLogin.php(164): NoPasswords->log_user_in_with_logi en /home/customer/www/sub.tonofu.com/public_html/wp-content/plugins/sg-security/core/Activity_Log/Activity_Log_Users.php en la línea 16
+
